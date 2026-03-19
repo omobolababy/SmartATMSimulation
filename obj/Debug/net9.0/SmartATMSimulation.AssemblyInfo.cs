@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartATMSimulation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd54e835897419c60127b033831c98fa9a66d8fb")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartATMSimulation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartATMSimulation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

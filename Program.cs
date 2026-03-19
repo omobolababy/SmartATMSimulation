@@ -64,41 +64,45 @@ if (attempts >= 3)
             break;
         
         case 2:  /// Withdarawal
-            if (withdrawalcount >= 3)
+
+            while (withdrawalcount < 3)
             {
-                Console.WriteLine("Withdrawal limit reached (3 per session).");
-                break;
+                Console.WriteLine("Enter withdrawal amount: ");
+                int witInput = int.Parse(Console.ReadLine());
+
+                if (witInput <= 0)
+                {
+                    Console.WriteLine("Invalid amount.");
+                    continue; 
+                }
+
+                if (witInput > balance)
+                {
+                    Console.WriteLine($"Insufficient balance. Your balance is {balance}.");
+                    continue; 
+                }
+                
+                withdrawalcount++;
+                balance -= witInput;
+
+                Console.WriteLine($"Successfully withdrew {witInput}. New balance: {balance}");
+
+                int witremaining = 3 - withdrawalcount;
+                if (witremaining > 0)
+                {
+                    Console.WriteLine($"{witremaining} withdrawal(s) remaining this session.");
+                }
             }
 
-            Console.WriteLine("Enter withdrawal amount: ");
-            int witInput = int.Parse(Console.ReadLine());
-
-            if (witInput <= 0)
-            {
-                Console.WriteLine("Invalid amount.");
-                break;
-            }
-
-            if (witInput > balance)
-            {
-                Console.WriteLine($"Insufficient balance. Your balance is {balance}.");
-                break;
-            }
-            
-            balance -= witInput;
-            withdrawalcount++;
-
-            Console.WriteLine($"Successfully withdrew {witInput}. New balance: {balance}");
-
-            int witremaining = 3 - withdrawalcount;
-            if (witremaining > 0)
-                Console.WriteLine($"{witremaining} withdrawal remaining this session.");
-
+            Console.WriteLine("Withdrawal limit reached (3 per session).");
             break;
+        
         
         case 3: ///// Check balance
             Console.WriteLine($"\n Hi {acctname} Your current balance is: {balance}.");
             break;
+        
+        
         case 4: /// Exit 
             Console.WriteLine("\nThank you for banking with us. Goodbye!");
             break;

@@ -12,3 +12,4 @@ C:\Users\USER\RiderProjects\SmartATMSimulation\obj\Debug\net9.0\refint\SmartATMS
 C:\Users\USER\RiderProjects\SmartATMSimulation\obj\Debug\net9.0\SmartATMSimulation.pdb
 C:\Users\USER\RiderProjects\SmartATMSimulation\obj\Debug\net9.0\SmartATMSimulation.genruntimeconfig.cache
 C:\Users\USER\RiderProjects\SmartATMSimulation\obj\Debug\net9.0\ref\SmartATMSimulation.dll
+C:\Users\USER\RiderProjects\SmartATMSimulation\obj\Debug\net9.0\SmartATMSimulation.sourcelink.json
