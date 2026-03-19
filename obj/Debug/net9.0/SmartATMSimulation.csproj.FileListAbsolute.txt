@@ -1,0 +1,14 @@
+C:\Users\USER\RiderProjects\SmartATMSimulation\bin\Debug\net9.0\SmartATMSimulation.exe
+C:\Users\USER\RiderProjects\SmartATMSimulation\bin\Debug\net9.0\SmartATMSimulation.deps.json
+C:\Users\USER\RiderProjects\SmartATMSimulation\bin\Debug\net9.0\SmartATMSimulation.runtimeconfig.json
+C:\Users\USER\RiderProjects\SmartATMSimulation\bin\Debug\net9.0\SmartATMSimulation.dll
+C:\Users\USER\RiderProjects\SmartATMSimulation\bin\Debug\net9.0\SmartATMSimulation.pdb
+C:\Users\USER\RiderProjects\SmartATMSimulation\obj\Debug\net9.0\SmartATMSimulation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\RiderProjects\SmartATMSimulation\obj\Debug\net9.0\SmartATMSimulation.AssemblyInfoInputs.cache
+C:\Users\USER\RiderProjects\SmartATMSimulation\obj\Debug\net9.0\SmartATMSimulation.AssemblyInfo.cs
+C:\Users\USER\RiderProjects\SmartATMSimulation\obj\Debug\net9.0\SmartATMSimulation.csproj.CoreCompileInputs.cache
+C:\Users\USER\RiderProjects\SmartATMSimulation\obj\Debug\net9.0\SmartATMSimulation.dll
+C:\Users\USER\RiderProjects\SmartATMSimulation\obj\Debug\net9.0\refint\SmartATMSimulation.dll
+C:\Users\USER\RiderProjects\SmartATMSimulation\obj\Debug\net9.0\SmartATMSimulation.pdb
+C:\Users\USER\RiderProjects\SmartATMSimulation\obj\Debug\net9.0\SmartATMSimulation.genruntimeconfig.cache
+C:\Users\USER\RiderProjects\SmartATMSimulation\obj\Debug\net9.0\ref\SmartATMSimulation.dll
